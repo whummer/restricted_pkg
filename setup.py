@@ -56,6 +56,7 @@ setup(
     entry_points={
         'distutils.setup_keywords': [
             'private_repository = restricted_pkg.validators:validate_private_repo',
+            'custom_headers = restricted_pkg.validators:validate_custom_headers'
         ],
     },
 )

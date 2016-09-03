@@ -12,3 +12,7 @@ from distutils.errors import DistutilsSetupError
 def validate_private_repo(distribution, attr, value):
     if not value:
         raise DistutilsSetupError("The %s value cannot be empty." % attr)
+
+
+def validate_custom_headers(distribution, attr, value):
+    pass
