@@ -27,7 +27,7 @@ PACKAGE = 'restricted_pkg'
 
 
 setup(
-    name="restricted_pkg",
+    name="restricted_pkg_ext",
     version=get_version(PACKAGE),
     author="Raphaël Barrois",
     author_email="raphael.barrois@polytechnique.org",
